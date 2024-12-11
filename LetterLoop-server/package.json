@@ -1,0 +1,26 @@
+{
+  "name": "letterloop-server",
+  "version": "1.0.0",
+  "description": "A newsletter service where anyone can create a subscription based newsletter service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "start": "node ./dest/index.js",
+    "dev":"nodemon ./src/index.ts"
+  },
+  "author": "Nazim Uddin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
