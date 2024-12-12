@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --build",
     "start": "node ./dest/index.js",
-    "dev":"nodemon ./src/index.ts"
+    "dev": "nodemon ./src/index.ts"
   },
   "author": "Nazim Uddin",
   "license": "ISC",
@@ -21,6 +21,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "google-auth-library": "^9.15.0"
   }
 }
